@@ -10,6 +10,7 @@ html {
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
     padding: 24px 24px 0;
+    scroll-behavior: smooth;
 }
 
 /*
@@ -118,6 +119,20 @@ a {
     transition: all .1s ease-in-out;
 }
 
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+th,td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
 a:hover,
 a:focus {
     color: crimson;
@@ -126,6 +141,10 @@ a:focus {
 a:visited,
 a:active {
     color: blueviolet;
+}
+
+.odd {
+    background-color: whitesmoke;
 }
 
 /*
